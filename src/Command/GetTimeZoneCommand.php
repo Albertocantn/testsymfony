@@ -33,15 +33,13 @@ class GetTimeZoneCommand extends Command
             '',
         ]);
 
-        $timezones=$this->timezone->getTimeZone();
+        $timezones = $this->timezone->getTimeZone();
 
-        foreach ($timezones as $timezone){
+        foreach ($timezones as $timezone) {
             $output->writeln([
-                $timezone
+                $timezone,
             ]);
         }
-
-
 
 
         $output->writeln([
