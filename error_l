@@ -1,0 +1,1 @@
+[11-Feb-2020 19:59:52 Asia/Riyadh] 2020-02-11T19:59:52+03:00 [critical] Uncaught Exception: The autoloader expected class "App\Controller\AppController" to be defined in file "/var/www/symfony/vendor/composer/../../src/Controller/AppController.php". The file was found but the class was not in it, the class name or namespace probably has a typo.
